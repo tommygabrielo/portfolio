@@ -1,7 +1,6 @@
 import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import Navbar from './components/Navbar';
 import Projet from './components/Projet';
 import Skills from './components/Skills';
 

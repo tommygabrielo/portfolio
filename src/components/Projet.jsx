@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import oke from "../assets/oke-prjet.png";
 import evaluation from "../assets/evaluation-projet.png";
 import cpe from "../assets/cpe-projet.png";
