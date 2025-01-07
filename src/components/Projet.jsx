@@ -4,6 +4,7 @@ import evaluation from "../assets/evaluation-projet.png";
 import cpe from "../assets/cpe-projet.png";
 import ttm from "../assets/ttm-projet.png";
 import gepovipe from "../assets/gepovipe-projet.png";
+import portfolio from "../assets/portfolio.png"
 import Aos from 'aos';
 
 const Projet = () => {
@@ -40,6 +41,12 @@ const Projet = () => {
             title: "GESTION DE POINTAGE",
             link: "https://github.com/tommygabrielo/GEPOVIPE/tree/main/GEPOVIPE/gestion%20de%20pointage",
             techs: ["AJAX", "CODEIGNITER", "BOOTSTRAP"],
+        },
+        {
+            img: portfolio,
+            title: "MON PORTFOLIO",
+            link: "",
+            techs: ["REACT", "TAILWIND"],
         },
     ];
 
