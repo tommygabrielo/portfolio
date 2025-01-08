@@ -4,10 +4,10 @@ import tommy from '../assets/tommy.png'
 
 const Footer = () => {
     return (
-        <div className=' max-w-[1200px] sm:h-[150px] p-12 flex justify-between mx-auto'>
+        <div className=' max-w-[1200px] sm:h-[150px] p-12 flex items-center justify-between mx-auto'>
            
             <div>
-                <img src={tommy} alt="" className='h-[70px]' />
+                <img src={tommy} alt="" className='mb-2 h-[70px]' />
             </div>
             
             <div >

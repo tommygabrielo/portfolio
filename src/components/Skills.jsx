@@ -19,7 +19,7 @@ const Skills = () => {
     }, [])
     return (
         <div className='mt-20'>
-            <h2 data-aos="fade-down" className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r text-white tracking-[10px] uppercase m-10 text-center font-poppins">
+            <h2 data-aos="fade-down" className="text-lg sm:text-2xl md:text-4xl lg:text-5xl font-extrabold  text-white tracking-[10px] m-10 text-center font-poppins">
                 MES COMPETENCES
             </h2>
             

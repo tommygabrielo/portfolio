@@ -40,7 +40,7 @@ const Projet = () => {
             img: gepovipe,
             title: "GESTION DE POINTAGE",
             link: "https://github.com/tommygabrielo/GEPOVIPE/tree/main/GEPOVIPE/gestion%20de%20pointage",
-            techs: ["AJAX", "CODEIGNITER", "BOOTSTRAP"],
+            techs: ["CODEIGNITER", "BOOTSTRAP"],
         },
         {
             img: portfolio,

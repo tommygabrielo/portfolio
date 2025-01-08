@@ -9,12 +9,12 @@ const Experience = () => {
     const [hovered, setHovered] = useState(false);
     return (
         <div className="mt-40 mx-10">
-            <h2 data-aos="fade-down" className="text-2xl md:text-5xl font-extrabold  text-white tracking-[10px] uppercase m-10 text-center font-poppins">
+            <h2 data-aos="fade-down" className="text-lg sm:text-2xl md:text-4xl lg:text-5xl font-extrabold  text-white tracking-[10px] mb-10 text-center font-poppins">
                 EXPERIENCES PROFESSIONNELS
             </h2>
             <div className="flex flex-col items-start bg-black text-gray-400 max-w-[1200px] sm:mx-4 md:mx-auto">
                 {/* Étape 1 */}
-                <div  data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+                <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
                             <img src={bpo} alt='bpo' />
@@ -40,12 +40,19 @@ const Experience = () => {
                             <li>Assurer une expérience fluide sur tous les appareils.</li>
                             <li>Documenter le travail pour une maintenance efficace.</li>
                         </ul>
-                        <div className='flex gap-4 mt-4'>
-                            <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>REACT</p>
-                            <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? ' border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>NEXT</p>
-                            <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? ' border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>TAILWIND</p>
-                   
+                        <div className="flex flex-wrap gap-4 mt-4 sm:gap-2 sm:mt-2">
+                            <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>
+                                REACT
+                            </p>
+                            <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>
+                                NEXT
+                            </p>
+                            <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>
+                                TAILWIND
+                            </p>
                         </div>
+
+
                         <br></br>
                         <br></br>
                         <br></br>
@@ -53,7 +60,7 @@ const Experience = () => {
                 </div>
 
                 {/* Étape 2 */}
-                <div  data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+                <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
                             <img src={eni} alt='bpo' />
@@ -80,7 +87,7 @@ const Experience = () => {
                             <li>Mettre en place une architecture client/serveur sécurisée et une base de données flexible avec MongoDB.</li>
                             <li>Optimiser l’ergonomie et assurer la compatibilité multiplateforme pour une utilisation fluide.</li>
                         </ul>
-                        <div className='flex gap-4 mt-4'>
+                        <div className="flex flex-wrap gap-4 mt-4 sm:gap-2 sm:mt-2">
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>REACT</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>EXPRESS</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>MongoDB</p>
@@ -91,7 +98,7 @@ const Experience = () => {
                     </div>
                 </div>
                 {/* Étape 3 */}
-                <div  data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+                <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
                             <img src={cpe} alt='bpo' className='h-[35px] w-[33px]' />
@@ -117,7 +124,7 @@ const Experience = () => {
                             <li>Intégrer l'API Mvola pour gérer les transactions.</li>
                             <li>Concevoir une interface de suivi des paiements dédiée à l'administrateur.</li>
                         </ul>
-                        <div className='flex gap-4 mt-4'>
+                        <div className="flex flex-wrap gap-4 mt-4 sm:gap-2 sm:mt-2">
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>REACT</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>EXPRESS</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>MySQL</p>
@@ -129,7 +136,7 @@ const Experience = () => {
                 </div>
 
                 {/* Étape 4 */}
-                <div  data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+                <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
                             <img src={ttm} alt='bpo' className='h-[35px] w-[33px]' />
@@ -154,7 +161,7 @@ const Experience = () => {
                             <li>Concevoir et développer une application de gestion intégrée pour le suivi des flux de stock, des ventes, et de la facturation.</li>
                             <li>Intégrer des fonctionnalités supplémentaires, notamment : la gestion des fournisseurs, la création de devis, le suivi des paiements, la génération de rapports statistiques, et la gestion des utilisateurs avec des droits d'accès personnalisés.</li>
                         </ul>
-                        <div className='flex gap-4 mt-4'>
+                        <div className="flex flex-wrap gap-4 mt-4 sm:gap-2 sm:mt-2">
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>REACT</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>EXPRESS</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>MySQL</p>
@@ -166,7 +173,7 @@ const Experience = () => {
                 </div>
 
                 {/* Étape 5 */}
-                <div  data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+                <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
                             <img src={fid} alt='bpo' />
@@ -191,10 +198,10 @@ const Experience = () => {
                             <li>Concevoir et développer une application pour la gestion des pointages des visiteurs et du personnel.</li>
                             <li>Développer des fonctionnalités de suivi en temps réel des entrées et sorties, avec des statistiques consolidées pour l'administration.</li>
                         </ul>
-                        <div className='flex gap-4 mt-4'>
+                        <div className="flex flex-wrap gap-4 mt-4 sm:gap-2 sm:mt-2">
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>AJAX</p>
                             <p className={`font-poppins px-4 py-2 rounded-xl border text-white ${hovered ? 'px-2 py-2 border border-red-700 duration-500' : 'px-4 py-2 rounded-xl border border-gray-400 text-sm'}  `}>CODEIGNITER</p>
-                        </div>       
+                        </div>
                     </div>
                 </div>
             </div>
