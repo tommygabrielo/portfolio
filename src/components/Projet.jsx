@@ -4,13 +4,14 @@ import evaluation from "../assets/evaluation-projet.png";
 import cpe from "../assets/cpe-projet.png";
 import ttm from "../assets/ttm-projet.png";
 import gepovipe from "../assets/gepovipe-projet.png";
-import portfolio from "../assets/portfolio.png"
+import portfolio from "../assets/portfolio.png";
 import Aos from 'aos';
 
 const Projet = () => {
     useEffect(() => {
-        Aos.init()
-    }, [])
+        Aos.init();
+    }, []);
+
     const projects = [
         {
             img: oke,
@@ -44,7 +45,7 @@ const Projet = () => {
         },
         {
             img: portfolio,
-            title: "MON PORTFOLIO",
+            title: "MON PORTFOLIO", 
             link: "",
             techs: ["REACT", "TAILWIND"],
         },
@@ -65,21 +66,23 @@ const Projet = () => {
                                 alt={project.title}
                                 className="sm:w-[250px] md:w-[400px] lg:w-[550px] rounded-lg"
                             />
-                            {/* Bouton central */}
                             <a
                                 href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
                             >
                                 <button className="text-white text-lg font-bold py-2 px-4 bg-gradient-to-r from-red-500 to-red-900 hover:from-orange-700 hover:to-red-900 rounded-full shadow-lg transform hover:scale-105 transition duration-300">
                                     Voir le projet
                                 </button>
-
                             </a>
                         </div>
 
                         <div className="mt-4">
                             <a
                                 href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-gray-400 font-exo2 font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter"
                             >
                                 {project.title}

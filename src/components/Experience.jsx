@@ -34,7 +34,7 @@ const Experience = () => {
                             BUSINESS PERFORMANCE OFFICE
                         </a>
                         <p className="text-white font-poppins text-sm lg:text-base mt-2">Développeur Front-end (next Js)</p>
-                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs'>
+                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs space-y-2 text-justify'>
                             <li>Concevoir des interfaces responsives basées sur les maquettes Figma</li>
                             <li>Intégrer des composants graphiques avec Chart.js et les API backend.</li>
                             <li>Assurer une expérience fluide sur tous les appareils.</li>
@@ -81,7 +81,7 @@ const Experience = () => {
                             ECOLE NATIONAL D'INFORMATIQUE
                         </a>
                         <p className="text-white font-poppins text-sm lg:text-base mt-2">Développeur FullStack (Stage)</p>
-                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs'>
+                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs space-y-2 text-justify'>
                             <li>Concevoir et développer une application web basée sur la pile MERN pour l’évaluation pédagogique.</li>
                             <li>Créer des fonctionnalités telles que la gestion des utilisateurs, des unités d’enseignement, et des professeurs, ainsi que des outils statistiques et de suivi des cours.</li>
                             <li>Mettre en place une architecture client/serveur sécurisée et une base de données flexible avec MongoDB.</li>
@@ -119,7 +119,7 @@ const Experience = () => {
                             CLUB DES PROFESSEURS EXPERIMENTE
                         </a>
                         <p className="text-white font-poppins text-sm lg:text-base mt-2">Développeur FullStack (Stage)</p>
-                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs'>
+                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs space-y-2 text-justify'>
                             <li>Développer une plateforme de paiement en ligne.</li>
                             <li>Intégrer l'API Mvola pour gérer les transactions.</li>
                             <li>Concevoir une interface de suivi des paiements dédiée à l'administrateur.</li>
@@ -157,7 +157,7 @@ const Experience = () => {
                             TRANOMBAROTRA TANTSAHA MAMOKATRA
                         </a>
                         <p className="text-white font-poppins text-sm lg:text-base mt-2">Développeur FullStack (Stage)</p>
-                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs'>
+                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs space-y-2 text-justify'>
                             <li>Concevoir et développer une application de gestion intégrée pour le suivi des flux de stock, des ventes, et de la facturation.</li>
                             <li>Intégrer des fonctionnalités supplémentaires, notamment : la gestion des fournisseurs, la création de devis, le suivi des paiements, la génération de rapports statistiques, et la gestion des utilisateurs avec des droits d'accès personnalisés.</li>
                         </ul>
@@ -194,7 +194,7 @@ const Experience = () => {
                             FOND D'INTERVENTION POUR LE DEVELOPPEMENT
                         </a>
                         <p className="text-white font-poppins text-sm lg:text-base mt-2">Développeur FullStack (Stage)</p>
-                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs'>
+                        <ul className='text-xs text-gray-300 list-disc font-poppins pl-5 mt-2 lg:text-base md:text-sm sm:text-xs space-y-2 text-justify'>
                             <li>Concevoir et développer une application pour la gestion des pointages des visiteurs et du personnel.</li>
                             <li>Développer des fonctionnalités de suivi en temps réel des entrées et sorties, avec des statistiques consolidées pour l'administration.</li>
                         </ul>
