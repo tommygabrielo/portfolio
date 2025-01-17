@@ -28,6 +28,8 @@ const Experience = () => {
                         </p>
                         <a
                             href="https://bpo-businessperformance.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
@@ -74,7 +76,9 @@ const Experience = () => {
                         </p>
 
                         <a
-                            href="https://bpo-businessperformance.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://eni.mg/"
                             className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
@@ -112,7 +116,9 @@ const Experience = () => {
                         </p>
 
                         <a
-                            href="https://bpo-businessperformance.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://web.facebook.com/courscpefianar"
                             className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
@@ -150,7 +156,7 @@ const Experience = () => {
                         </p>
 
                         <a
-                            href="https://bpo-businessperformance.com/"
+                            href="/"
                             className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
@@ -187,7 +193,9 @@ const Experience = () => {
                         </p>
 
                         <a
-                            href="https://bpo-businessperformance.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.fid.mg/"
                             className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
