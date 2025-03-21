@@ -112,7 +112,7 @@ const Experience = () => {
                     </div>
                     <div className='gap-y:10'>
                         <p className="text-gray-400 font-exo2 font-semibold sm:text-lg md:text-xl lg:text-2xl">
-                            SEPTEMBRE - NOVEMBRE 2023
+                            Juillet - NOVEMBRE 2023
                         </p>
 
                         <a
