@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useEffect } from "react";
 import oke from "../assets/oke-prjet.png";
 import evaluation from "../assets/evaluation-projet.png";
@@ -6,6 +8,7 @@ import ttm from "../assets/ttm-projet.png";
 import gepovipe from "../assets/gepovipe-projet.png";
 import portfolio from "../assets/portfolio.png";
 import Aos from 'aos';
+import Image from "next/image";
 
 const Projet = () => {
     useEffect(() => {
@@ -61,7 +64,7 @@ const Projet = () => {
                 {projects.map((project, index) => (
                     <div data-aos="fade-down" key={index} className="relative group">
                         <div className="relative group">
-                            <img
+                            <Image
                                 src={project.img}
                                 alt={project.title}
                                 className="sm:w-[250px] md:w-[400px] lg:w-[550px] rounded-lg"

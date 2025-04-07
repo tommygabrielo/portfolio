@@ -1,10 +1,12 @@
+'use client'
+
 import React, { useEffect } from 'react'
 import profilepic from '../assets/sary.png'
 import { AiFillFacebook, AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 import { TypeAnimation } from 'react-type-animation'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import CV from '../assets/CV-Tommy.pdf'
+import Image from 'next/image'
 
 const Hero = () => {
     useEffect(() => {
@@ -13,12 +15,14 @@ const Hero = () => {
     return (
         <div className="pt-10 sm:pt-28 md:pt-28 lg:pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black">
             <div className='col-span-1 my-auto mx-auto w-[320px] h-auto lg:w-[400px]'>
-                <img src={profilepic} alt='sary' data-aos="fade-down" data-aos-easing="linear"
+                <Image src={profilepic} alt='sary' data-aos="fade-down" data-aos-easing="linear"
                     data-aos-duration="1500" />
             </div>
             <div className='col-span-2 px-5 my-auto'>
                 <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold text-center lg:text-start'>
-                    <span className='bg-primary text-transparent bg-clip-text'>
+                    <span  className="bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent"
+                      data-aos="fade-up" data-aos-duration="3000"
+                     >
                         Je suis
                     </span> <br />
                     <TypeAnimation
@@ -38,7 +42,10 @@ const Hero = () => {
                 </p>
 
                 <div className='my-8 flex gap-5 items-center' data-aos="fade-up" data-aos-duration="3000">
-                    <a href={CV} className="text-white text-lg font-bold py-2 px-4 bg-gradient-to-r from-red-500 to-red-900 hover:from-orange-700 hover:to-red-900 rounded-full shadow-lg transform hover:scale-105 transition duration-300" download>
+                    <a 
+                    href="/CV-Tommy.pdf" 
+                    download
+                    className="text-white text-lg font-bold py-2 px-4 bg-gradient-to-r from-red-500 to-red-900 hover:from-orange-700 hover:to-red-900 rounded-full shadow-lg transform hover:scale-105 transition duration-300" >
                         Télécharger mon CV
                     </a>
 

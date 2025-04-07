@@ -1,9 +1,12 @@
+'use client'
+
 import React, { useState } from 'react';
 import bpo from '../assets/bpo.png'
 import eni from '../assets/logoENI.png'
 import ttm from '../assets/TTM2.png'
 import cpe from '../assets/logo.png'
 import fid from '../assets/logoH.png'
+import Image from 'next/image';
 
 const Experience = () => {
     const [hovered, setHovered] = useState(false);
@@ -17,7 +20,7 @@ const Experience = () => {
                 <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
-                            <img src={bpo} alt='bpo' />
+                            <Image src={bpo} alt='bpo' />
                         </div>
                         {/* Ligne verticale */}
                         <div className="w-px h-full bg-gray-400 absolute top-12"></div>
@@ -30,7 +33,7 @@ const Experience = () => {
                             href="https://bpo-businessperformance.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
+                            className={`${hovered ? 'bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
                             BUSINESS PERFORMANCE OFFICE
@@ -65,7 +68,7 @@ const Experience = () => {
                 <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
-                            <img src={eni} alt='bpo' />
+                            <Image src={eni} alt='bpo' />
                         </div>
                         {/* Ligne verticale */}
                         <div className="w-px h-full bg-gray-400 absolute top-12"></div>
@@ -79,7 +82,7 @@ const Experience = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://eni.mg/"
-                            className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
+                            className={`${hovered ? 'bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
                             ECOLE NATIONAL D'INFORMATIQUE
@@ -105,7 +108,7 @@ const Experience = () => {
                 <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
-                            <img src={cpe} alt='bpo' className='h-[35px] w-[33px]' />
+                            <Image src={cpe} alt='bpo' className='h-[35px] w-[33px]' />
                         </div>
                         {/* Ligne verticale */}
                         <div className="w-px h-full bg-gray-400 absolute top-12"></div>
@@ -119,7 +122,7 @@ const Experience = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://web.facebook.com/courscpefianar"
-                            className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
+                            className={`${hovered ? 'bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
                             CLUB DES PROFESSEURS EXPERIMENTE
@@ -145,7 +148,7 @@ const Experience = () => {
                 <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
-                            <img src={ttm} alt='bpo' className='h-[35px] w-[33px]' />
+                            <Image src={ttm} alt='bpo' className='h-[35px] w-[33px]' />
                         </div>
                         {/* Ligne verticale */}
                         <div className="w-px h-full bg-gray-400 absolute top-12"></div>
@@ -157,7 +160,7 @@ const Experience = () => {
 
                         <a
                             href="/"
-                            className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
+                            className={`${hovered ? 'bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
                             TRANOMBAROTRA TANTSAHA MAMOKATRA
@@ -182,7 +185,7 @@ const Experience = () => {
                 <div data-aos="zoom-in-down" className="flex gap-4" onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
                     <div className="relative flex flex-col items-center">
                         <div className="bg-white rounded-full w-12 h-12 flex justify-center items-center">
-                            <img src={fid} alt='bpo' />
+                            <Image src={fid} alt='bpo' />
                         </div>
                         {/* Ligne verticale */}
                         <div className="w-px h-full bg-gray-400 absolute top-12"></div>
@@ -196,7 +199,7 @@ const Experience = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.fid.mg/"
-                            className={`${hovered ? 'bg-primary text-transparent bg-clip-text transition-all duration-500' : 'text-white'
+                            className={`${hovered ? 'bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent transition-all duration-500' : 'text-white'
                                 } font-poppins font-semibold sm:text-xl md:text-2xl lg:text-3xl -tracking-tighter`}
                         >
                             FOND D'INTERVENTION POUR LE DEVELOPPEMENT
