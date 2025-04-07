@@ -1,13 +1,14 @@
 import React from 'react'
 import { AiFillFacebook, AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai'
 import tommy from '../assets/tommy.png'
+import Image from 'next/image'
 
 const Footer = () => {
     return (
         <div className=' max-w-[1200px] sm:h-[150px] p-12 flex items-center justify-between mx-auto'>
            
             <div>
-                <img src={tommy} alt="" className='mb-2 h-[70px]' />
+                <Image src={tommy} alt="" width={120} height={50} className='mb-2 h-[70px]' />
             </div>
             
             <div >
