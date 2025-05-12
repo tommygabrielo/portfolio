@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -26,8 +27,5 @@
     "file-loader": "^6.2.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "scripts": {
-    "postbuild": "next-sitemap"
   }
 }
